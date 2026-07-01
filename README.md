@@ -1,78 +1,88 @@
-# 🌸 Ferns and Petals Sales Performance Dashboard
+# 🌸 Ferns and Petals: Retail Sales Performance Dashboard
 
-✨ **Turned 1,000+ raw, messy transactional records into a decision-ready interactive retail dashboard.** 
+✨ **Transforming 1,000+ transactional records into an interactive, decision-ready retail intelligence dashboard.**
 
-This end-to-end data analytics project processes raw CSV data from an occasion-based gift retail business, structures relational data tables, and builds dynamic visual insights tracking **₹35.2L+** in revenue.
+This data analytics project processes raw e-commerce/retail data from an occasion-based gifting business, designs an interconnected relational data model, and builds dynamic visual insights tracking over **₹35.2L+** in revenue.
+
+[![Excel](https://img.shields.io/badge/Tools-Microsoft_Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)]()
+[![Status](https://img.shields.io/badge/Status-Completed-success?style=flat)]()
+[![Dataset Size](https://img.shields.io/badge/Dataset-1000+_Rows-blue?style=flat)]()
 
 ---
 
 ## 📌 Project Overview
-* **Project Type:** Data Analytics | Retail Sales Performance
-* **Status:** ✅ Completed
-* **Tech Stack:** Microsoft Excel, Power Query, Pivot Tables & Charts, Dashboard Design
-* **Total Tracked Revenue:** ₹35,20,984
+This project explores transactional retail metrics to answer core business questions about sales distribution, top product categories, logistical bottlenecks, and peak seasonal trends. 
+
+The goal is to demonstrate practical business intelligence and data modeling skills:
+* **ETL Workflows:** Cleaning, transforming, and formatting raw, messy data formats via Power Query.
+* **Data Modeling:** Constructing an optimized relational star/snowflake-adjacent schema.
+* **Advanced Metrics:** Writing logical formulas and descriptive DAX/aggregations.
+* **UI/UX Dashboard Design:** Developing highly scannable, executive-ready visuals with seamless interactivity.
 
 ---
 
-## 📂 Data Architecture & Sources
-The project utilizes an interconnected relational schema constructed from three raw datasets:
-* `orders.csv` (1,000+ transactional records tracking Order Date, Delivery Date, Quantities, and Product IDs)
-* `customers.csv` (100 distinct customer profiles)
-* `products.csv` (70 unique SKUs mapped across categories and pricing structures)
+## 🗂 Dataset Architecture
+The analytics framework is built on top of three core source tables:
+
+| File | Description | Key Features |
+| :--- | :--- | :--- |
+| **`orders.csv`** | Transaction-level logs | Order Date, Delivery Date, Quantities, Product IDs |
+| **`customers.csv`** | Customer master records | 100+ distinct customer profiles & segments |
+| **`products.csv`** | Product master data | 70+ unique SKUs mapped across categories & base prices |
 
 ---
 
 ## 🔧 Build Log (Step-by-Step Workflow)
-1. **Data Cleaning & ETL:** Imported messy CSVs, handled missing values, and standardized data types using Power Query/Excel formulas.
-2. **Data Modeling:** Structured relational sheets to connect customers, orders, and products seamlessly.
-3. **Analytical Computations:** 
-   * Formulated Pivot Tables to aggregate monthly revenue trends.
-   * Calculated the average **Order-to-Delivery fulfillment gap (~5.5 days)**.
-   * Ranked top-performing products by both gross revenue and quantity sold.
-4. **UI/UX Dashboard Design:** Combined Pivot Charts, unified color themes, and integrated interactive **Slicers** for dynamic filtering.
+
+### 1. Data Cleaning & Extraction (ETL)
+* Imported raw CSV files into an organized layout.
+* Addressed blank/missing attributes, unified date structures, and standardized localized currency representations.
+
+### 2. Analytical Computations
+* Mapped the average logistics lifecycle, pinpointing an **Order-to-Delivery fulfillment gap of ~5.5 days**.
+* Computed comprehensive gross revenue aggregates ($Total\_Revenue = \sum (Quantity \times Price)$) to track overall performance.
+
+### 3. Interactive UI Implementation
+* Implemented dynamic, multi-tier **Slicers** for real-time data drilling (by Month, Category, and Status).
+* Maintained a strict, cohesive color palette (complemented by deep accents) to maximize visual readability.
 
 ---
 
 ## 📊 Key Business Insights
 
 ### 🏆 Top Performing Categories
-* **Soft Toys** 🧸
-* **Sweets** 🍬
-* **Colors** 🎨
-* **Mugs** ☕
+* **Soft Toys** 🧸 & **Sweets** 🍬 lead gross profit margins.
+* **Colors** 🎨 & **Mugs** ☕ command the highest volume of micro-transactions.
 
-### 📅 Peak Occasions & Seasonality
-* Highest revenue spikes observed during **Diwali**, **Raksha Bandhan**, and **Anniversaries**.
-* Seasonal trend analysis mapped across a continuous 12-month timeline to optimize inventory readiness.
-
-### 🚚 Logistics & Fulfillment
-* **Average Fulfillment Gap:** ~5.5 days from order placement to delivery doorstep.
+### 📅 Seasonality & Peak Performance
+* Maximum transaction volumes heavily correlate with major celebratory timelines such as **Diwali**, **Raksha Bandhan**, and localized **Anniversaries**.
+* Timeline analysis helps identify structural inventory management windows to prevent stockouts.
 
 ---
 
 ## 🖥️ Dashboard Preview
 
-> *Replace the placeholder image paths below with your actual repository screenshot links to display them cleanly!*
+> *Note: Replace the image placeholders below with your actual repository screenshot links once uploaded!*
 
-| Main Dashboard View | Interactive Filtering (Slicers) |
+| 📈 Main Executive Dashboard | 🔍 Filtered Slicer Views |
 |---|---|
-| ![Dashboard Overview](Screenshot%202026-07-01%20193509.png) | ![Slicers in Action](Screenshot%202026-07-01%20195436.png) |
+| ![Dashboard Overview](Screenshot%202026-07-01%20193509.png) | ![Slicers Action](Screenshot%202026-07-01%20195436.png) |
 
-| Trend Analysis | Product Standings |
+| 📅 Timeline & Revenue Trends | 🥇 Product Leaderboards |
 |---|---|
 | ![Revenue Trends](Screenshot%202026-07-01%20195754.png) | ![Top Products](Screenshot%202026-07-01%20195816.png) |
 
 ---
 
-## 🧠 Core Skills Applied
-* **Data Cleaning & Transformation** (Handling raw CSV data formats)
-* **Advanced Pivot Tables & Pivot Charts**
-* **Dynamic Business Reporting**
-* **Dashboard UI/UX Design** (Slicers, Timeline filters, and structured layouts)
+## 🧠 Core Competencies Demonstrated
+* Dynamic Business Reporting & KPI Tracking
+* Relational Data Modeling (Connecting Fact & Dimension Tables)
+* Trend Analysis & Forecasting Preparation
+* User-Centric Dashboard UI/UX Design
 
 ---
 
-## 💬 Let's Connect!
-I am always looking to refine my data workflows and level up my business intelligence skills. If you have any feedback or want to talk data analytics, feel free to reach out or drop a ⭐ on this repository!
+## 🤝 Contributing & Feedback
+Feel free to fork this repository, submit pull requests with enhanced visual templates, or open issues to discuss alternative data modeling strategies. 
 
-**#DataAnalytics #ExcelDashboard #PowerQuery #DataVisualization #BusinessIntelligence**
+⭐ **If you find this business intelligence project helpful or inspiring, please consider giving it a star!**
